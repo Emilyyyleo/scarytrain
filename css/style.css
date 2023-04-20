@@ -1,3 +1,207 @@
-body{
-    background-color:rgb(250, 167, 223);
-}
+.bgindex {
+  background-image: url("../images/background.gif");
+  background-size:cover; 
+  background-color: plum;
+ }
+ 
+ /* The text animations from Page 1 */
+ .wrapper {
+   height: 100vh;
+   /*This part is important for centering*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .typing-demo {
+   width: 53ch;
+   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 3px solid;
+   font-family: 'VT323', monospace;
+   font-size: 3em;
+   color: azure;
+ }
+ 
+ @keyframes typing {
+   from {
+     width: 0
+   }
+ }
+   
+ @keyframes blink {
+   50% {
+     border-color: transparent
+   }
+ }
+ 
+   /* Train page specifics*/
+ 
+         .bgtrainp {
+     background-image: url("../images/background.gif");
+     background-size:cover; 
+   }
+ 
+ .typing-demotrainpage {
+   width: 41ch;
+   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 3px solid;
+   font-family: 'VT323', monospace;
+   font-size: 3em;
+   color: rgb(255, 232, 236);
+ }
+ 
+ 
+ /*Page two specifics */
+ 
+       .bgtrainlobby {
+   background-image: url("../images/background.gif");
+   background-size: contain
+ }
+ 
+ .typing-demotrainlobby{
+   width: 20ch;
+   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 3px solid;
+   font-family: 'VT323', monospace;
+   font-size: 3em;
+   color: azure;
+ }
+ 
+ /* Pick Page specifics! */
+ 
+ .bgpick {
+  background-image: url("../images/background.gif");
+  background-size:cover; 
+  background-color: plum;
+ 
+ }
+ 
+ .typing-demopick{
+   width: 43ch;
+   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 3px solid;
+   font-family: 'VT323', monospace;
+   font-size: 3em;
+   color: rgb(255, 232, 236);
+ }
+ 
+ /* Star ZONEEE specifics!! */
+ 
+ .bgmermaid {
+   background-image: url("../images/background.gif");
+   background-size:cover; 
+   height: 100vh;
+   padding:0;
+   margin:0;
+   background-color:rgb(130, 229, 233); 
+   background-size: contain
+ }
+ 
+ .typing-demoasmr {
+   width: 25ch;
+   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 3px solid;
+   font-family: 'VT323', monospace;
+   font-size: 3em; }
+ 
+ /* Mushroom page specifics!! */
+ 
+ .bgmushroom {
+   background-color:rgb(255, 232, 236);
+   background-image: url("../images/dreamysky.gif");
+ }
+ 
+ /* Candy land Page specifics!! */
+ 
+ .bgcandyland {
+ background-image: url("../images/dreamysky.gif");
+ }
+ 
+   /* Button!!!! */
+ 
+ .button-8 {
+   background-color: #7cff9d;
+   border-radius: 3px;
+   border: 1px solid #fff3b2;
+   box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+   box-sizing: border-box;
+   color: #af00c3;
+   cursor: pointer;
+   display: inline-block;
+   font-family: 'VT323', monospace;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.15385;
+   margin: 0;
+   outline: none;
+   padding: 8px .8em;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   vertical-align: baseline;
+   white-space: nowrap;
+   /* margin-left: 400px; */
+ }
+ 
+ .button-8:hover,
+ .button-8:focus {
+   background-color: #8ffff8;
+   color: #7200c9;
+ }
+ 
+ .button-8:focus {
+   box-shadow: 0 0 0 4px rgba(255, 0, 221, 0.15);
+ }
+ 
+ .button-8:active {
+   background-color: #54fff1;
+   box-shadow: none;
+   color: #5a007b;
+ }
+ 
+ /* .container { 
+   height: 200px;
+   position: relative;
+   border: 3px solid green; 
+ } */
+ 
+ .center {
+   margin: 0;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+ }
+ 
+ .centerpick {
+   margin: 0;
+   position: absolute;
+   top: 60%;
+   left: 48%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+ }
+ 
+ .centermermaid {
+ margin: 0;
+ position: absolute;
+ top: 35%;
+ left: 48%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ }
+ 
